@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WOOF GURR</title>
+    <script src="scropt.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="puppy.jpg">
+<div id="sect1">
+    <table id="table1">
+        <tr>
+            <th>Points</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="points1" placeholder="3,21,99"></td>
+            <td><input type="text" id="weight1" placeholder="69"></td>
+        </tr>
+    </table>
+    <button onclick="addRow()" id="addButton" class="btn btn-default">Add row</button>
+    <button onclick="calcCurrent()" class="btn btn-default">Get my grade!</button>
+    <span id="grade"></span>
+</div>
+<div id="sect2">
+    <table id="table2">
+        <tr>
+            <td class = "wordsTop">Desired final grade</td>
+            <td class = "wordsTop">Final weight</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="wanted" placeholder="90"></td>
+            <td><input type="text" id="finalweight" placeholder="20"></td>
+        </tr>
+    </table>
+    <button onclick="calcGradeNeed()"class="btn btn-default">Calculate!</button>
+    <br>
+    <span id="userNeed">You need <span id="need">___</span>% to get the grade you want</span>
+</div>
+</body>
+</html>

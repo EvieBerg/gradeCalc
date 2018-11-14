@@ -1,0 +1,14 @@
+#sect1, #sect2{
+    position: relative;
+    text-align: center;
+}
+
+th, #grade, .wordsTop, #userNeed{
+    font-family: "Comic Sans MS";
+    color: white;
+}
+
+#table1, #table2{
+    position: relative;
+    margin: auto;
+}
